@@ -3,14 +3,30 @@
   "version": "1.0.0",
   "description": "Cuderbot ESLint, editorconfig and prettier config goes here",
   "main": "index.js",
-  "repository": "github.com/cuderbot/eslint-config",
+  "repository": {
+    "url": "https://github.com/cuderbot/eslint-config-cuderbot"
+  },
   "author": "Javier <Cuderbot> Becerra",
   "license": "MIT",
   "private": false,
-  "dependencies": {},
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-security-node": "^1.1.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-security-node": "^1.1.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.6.2"
