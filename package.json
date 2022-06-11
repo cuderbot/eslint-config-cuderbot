@@ -9,6 +9,15 @@
   "author": "Javier <Cuderbot> Becerra",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "tape test/**/*.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "styleguide"
+  ],
   "peerDependencies": {
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
@@ -30,5 +39,8 @@
     "eslint-plugin-security-node": "^1.1.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "tape": "^5.5.3"
   }
 }
