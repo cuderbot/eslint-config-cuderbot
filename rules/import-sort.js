@@ -1,9 +1,13 @@
 module.exports = {
   rules: {
+    // Enforce a convention in the order of require() / import statements.
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
     'import/order': 'off',
 
+    // https://github.com/lydell/eslint-plugin-simple-import-sort
     'simple-import-sort/exports': 'error',
 
+    // https://github.com/lydell/eslint-plugin-simple-import-sort/#custom-grouping
     'simple-import-sort/imports': [
       'error',
       {
@@ -18,7 +22,7 @@ module.exports = {
           // Packages. `react` related packages come first.
           ['^react', '^@?\\w'],
           // Internal packages that start with "$" ex: $services or $routes i use this for separate from scope libs like nestjs.
-          ['^$?\\w'],
+          ['^($)(/.*|$)'],
           // Parent imports. Put `..` last.
           ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
           // Other relative imports. Put same-folder imports and `.` last.
@@ -29,6 +33,8 @@ module.exports = {
       },
     ],
 
+    // Enforces sorted import declarations within modules.
+    // https://eslint.org/docs/rules/sort-imports
     'sort-imports': 'off',
   },
 }
