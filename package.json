@@ -3,6 +3,21 @@
   "version": "1.0.0",
   "description": "Cuderbot ESLint, editorconfig and prettier config goes here",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./rules/best-practices": "./rules/best-practices.js",
+    "./rules/error": "./rules/error.js",
+    "./rules/es6": "./rules/es6.js",
+    "./import-sort": "./import-sort.js",
+    "./import": "./import.js",
+    "./rules/node": "./rules/node.js",
+    "./react-hooks": "./react-hooks.js",
+    "./react": "./react.js",
+    "./rules/style": "./rules/style.js",
+    "./rules/imports": "./rules/imports.js",
+    "./rules/variables": "./rules/variables.js",
+    "./package.json": "./package.json"
+  },
   "repository": {
     "url": "https://github.com/cuderbot/eslint-config-cuderbot"
   },
