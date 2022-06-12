@@ -30,7 +30,7 @@ module.exports = {
         message:
           'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
       },
-    ].concat(confusingBrowserGlobals),
+    ],
 
     // disallow declaration of variables already declared in the outer scope
     // https://eslint.org/docs/rules/no-shadow
