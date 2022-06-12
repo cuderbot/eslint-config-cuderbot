@@ -6,7 +6,6 @@ module.exports = {
     './rules/import-sort',
     './rules/import',
     './rules/node',
-    './rules/react-a11y',
     './rules/react',
     './rules/react-hooks',
     './rules/style',
