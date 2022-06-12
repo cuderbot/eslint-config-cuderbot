@@ -54,7 +54,8 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-security-node": "^1.1.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "react": "^18.1.0"
   },
   "devDependencies": {
     "tape": "^5.5.3"
