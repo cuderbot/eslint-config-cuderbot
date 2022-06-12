@@ -25,6 +25,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "lint": "eslint rules/**/*.js",
     "test": "tape test/**/*.js"
   },
   "keywords": [
